@@ -3,10 +3,20 @@ body {
     font-family: Arial, sans-serif;
 }
 
+a {
+    font-size: 1.5vw;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
 .even-spaced-container {
     display: flex;
     justify-content: space-between;
+
 }
+
 
 .center {
     margin: 0 auto;
@@ -17,11 +27,11 @@ body {
     text-align: center;
 }
 
-.moving-text {
+.flying-right {
     position: relative;
     top: 50%;
     /* left: 50%; */
-    animation: moveAnimation 15s linear infinite;
+    animation: moveAnimation 20s linear infinite;
 }
 
 @keyframes moveAnimation {
